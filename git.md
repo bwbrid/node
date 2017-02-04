@@ -38,7 +38,7 @@
 + `git checkout`命令可以进行"一键还原"，其实是用版本库中的版本来替换工作区的版本，无论工作区的是修改了还是删除了
 
 ### git中的远程仓库
-+ 要关联一个远程仓库，是用命令`git remote origin git@server-name:path/repo-name.git`
++ 要关联一个远程仓库，是用命令`git remote add origin git@server-name:path/repo-name.git`
 + 关联远程仓库后，使用命令`git push -u origin master`第一次推送master分支的内容
 + 此后，每次本地提交后，只要有必要就可以使用`git push origin master`推送最新的修改
 + 要克隆一个远程仓库，首先必须知道远程仓库的地址，然后使用`git clone`命令克隆
